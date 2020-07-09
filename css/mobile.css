@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+  .body-header {
+    position: relative;
+  }
+  .toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+  }
+
+  .toggle span {
+    color: #faa61a;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+}
