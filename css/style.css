@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /*  setting default styling to html elements
+      -   creating default styling to html element
+  */
+  body {
+    background-color: #e7e7e7;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  strong {
+    font-weight: normal;
+  }
+  
+  /*  setting default styling to classes
+      -   creating default styling to given class names
+      -   these classes u can use in multiple pages do no need to restyle that section
+  */
+  .body-header {
+    background: #052740;
+    margin-bottom: 30px;
+  }
+  
+  .header-brand img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 70px;
+  }
+  
+  .nav {
+    padding-top: 30px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .about-me header {
+    padding-bottom: 20px;
+  }
+  
+  .about-me h1 {
+    line-height: 20px;
+    font-size: 30px;
+    color: rgb(241, 112, 6);
+  }
+  
+  /* 
+  *   #MY WORKS SECTION
+  */
+  
+  /* .my-works img{
+      padding-top: 30px;
+      width: 100%;
+  } */
+  
+  /* .my-works article {
+      position: relative;
+  } */
+  
+  .my-portfolio,
+  .my-video {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+  }
+  
+  .my-portfolio header,
+  .my-video header {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  /* footer section */
+  
+  .body-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #052740;
+  }
+  
+  .body-footer .right-section header {
+    color: rgb(14, 134, 247);
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-right: 5px;
+   
+  }
+  
+  .body-footer .right-section a,
+  .body-footer .right-section p {
+    color: rgb(255, 174, 0); 
+  }
+
+  .body-footer p, .body-footer h6,.body-footer header{
+    padding-left: 10px;
+  }
+ 
+ 
+
+  .body-footer address{
+    text-align: right;
+  }
+  
+  .left-section img {
+    width: 70px;
+    margin-left: 10px;
+  }
+  
+  /* skill page */
+  
+  .skill-page .skill-list ul,
+  .about-page .about-list ul,
+  .about-page .habbies-list ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* text aligning issue 
+      - no line height / padding taking
+  */
+  
+  .skill-page .skill-list ul li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .skill-page .skill-list img {
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+  .skill-page .page-header {
+    text-align: center;
+    color: rgb(33, 8, 92);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
+  
+  .skill-page .skill-list strong,
+  .about-page .about-list strong,
+  .about-page .habbies-list strong {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .skill-page .col-sm-3,
+  .about-page .col-sm-5 {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10px;
+  }
+  
+  .skill-group header,
+  .about-group header {
+    color: rgb(221, 111, 7);
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid darkgray;
+  }
+  
+  .about-group header {
+    margin-left: 0px;
+  }
+  
+  .about-group address {
+    margin: 0;
+    float: left;
+  }
+  
+  .about-page .about-list img,
+  .about-page .habbies-list img {
+    width: 90px;
+    float: right;
+  }
+  
+  .about-group {
+    padding: 0 20px;
+  }
+  
+  .about-page ul {
+    list-style: none;
+  }
+  
+  .about-page .about-list ul li,
+  .about-page .habbies-list ul li {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .about-group li strong {
+    line-height: 60px;
+  }
+  
+  /* contact page */
+  
+  .contact-bg {
+    background: #052740;
+    color: white;
+    padding-top: 50px;
+  }
+  
+  /* .contact-bg img{
+  width: 100%; */
+  
+  /* } */
+  
+  .contact-bg .phone {
+    width: 100%;
+    margin: 5%;
+  }
+  
+  .contact-bg .email {
+    width: 100%;
+    margin: 5%;
+  }
+
+  .contact h6 {
+    padding-left: 10px;
+  }
+  
+  .contact-bg .right-section header{
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  /* index page Body Main animation */
+  .my-works {
+    overflow: hidden;
+  }
+  
+  .grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    list-style: none;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* Common style */
+  
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 0 10px;
+    min-width: 320px;
+    max-width: 540px;
+    max-height: 360px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+  }
+  
+  .grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .grid figure figcaption::before,
+  .grid figure figcaption::after {
+    pointer-events: none;
+  }
+  
+  .grid figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  
+  .grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+  }
+  
+  .grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+  }
+  
+  .grid figure h2 span {
+    font-weight: 800;
+  }
+  
+  .grid figure h2,
+  .grid figure p {
+    margin: 0;
+  }
+  
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+  }
+  
+  /* Individual effects */
+  
+  /*---------------*/
+  /***** Lily *****/
+  /*---------------*/
+  
+  figure.port-animate img {
+    max-width: none;
+    width: -webkit-calc(100% + 50px);
+    width: calc(100% + 50px);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+  }
+  
+  figure.port-animate figcaption {
+    text-align: left;
+  }
+  
+  figure.port-animate figcaption > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+  }
+  
+  figure.port-animate h2 {
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  
+  figure.port-animate h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+  }
+  
+  figure.port-animate:hover img {
+    opacity: 1;
+  }
+  
+  figure.port-animate:hover img,
+  figure.port-animate:hover h2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+.portfolio-bg {
+  padding-top: 0px;
+  background-color: black;
+}
+
+.modal-title{
+margin-top: -10px;
+margin-bottom: -10px;
+}
+
+.modal-footer{
+  margin-top: -10px;
+  margin-bottom: -10px;;
+}
+
+  /* From Rohit */
+
+
+  
